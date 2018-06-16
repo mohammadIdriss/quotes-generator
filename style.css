@@ -1,0 +1,106 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    line-height: normal;
+    vertical-align: baseline;
+}
+body{
+	background-color:#49C6E5;
+	color:#111;
+	font-weight:bold;
+	font-family:'Tahoma', sans-serif;
+	text-align:center;
+}
+header{
+	height:100px;
+	margin:40px 0;
+	padding:20px;
+	border-bottom:2px dashed;
+
+}
+header > h1{
+	font-size:40px;
+
+}
+button{
+	background-color:#f33;
+	border:none;
+	font-size:40px;
+	font-family:sans-serif;
+	padding:20px;
+	transition:all 0.3s;
+	box-shadow:1px 1px 3px,-1px -1px 3px;
+	cursor:pointer
+}
+
+div{
+	width:70%;
+	word-wrap:normal;
+	background-color:#fff;
+	color:#111;
+	height:400px;
+	margin-left:15%;
+	margin-top:30px;
+	box-shadow:1px 1px 10px black;
+	font-size:20px;
+	padding:100px;
+	display:none;
+}
+div q{
+	opacity:0.8;
+}
+div .author{
+	float:left;
+	margin-top:20px;
+}
+div time{
+	opacity:0.5;
+	font-size:15px;
+	float:right;
+	margin-top:40px
+	
+}
+
+
+footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:30px;
+	border-top:2px dashed;
+	padding-top:5px;
+	font-size:20px;
+	font-family:impact;
+	font-weight:normal;
+}
+footer a{
+	color:#fff;
+	text-decoration:none;
+	transition:all 0.3s;
+}
+footer a:hover{
+	text-shadow:1px 1px 50px #111;
+	border-top:3px solid #1B1B3A;
+	
+}
