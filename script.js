@@ -40,7 +40,7 @@ request.onreadystatechange = function () {
 		q.innerText=response.quote.body;
 		author.innerText="- "+response.quote.author;
 		document.getElementsByTagName('a')[0].setAttribute("href",response.quote.url)
-
+		document.getElementsByTagName('a')[1].setAttribute("href","https://www.google.com/search?q="+response.quote.author)
 	}
 }
 
