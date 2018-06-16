@@ -36,9 +36,10 @@ request.onreadystatechange = function () {
     
 	else if (this.readyState == 4 && this.status == 200){
 		var response = JSON.parse(this.responseText);
-		console.log(response);
+		//console.log(response);
 		q.innerText=response.quote.body;
 		author.innerText="- "+response.quote.author;
+		document.getElementsByTagName('a')[0].setAttribute("href",response.quote.url)
 
 	}
 }
@@ -60,7 +61,7 @@ button.onmouseenter=function(){
 	button.style.backgroundColor=result;
 }
 button.onclick=function(){
-button.innerText="Next >>"
+button.innerText="Next"
 document.getElementsByTagName('div')[0].style.display="block";
 request.open("GET",url,true);
 request.send();

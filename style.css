@@ -82,7 +82,11 @@ div time{
 	
 }
 
-
+div a{
+	color:currentColor;
+	text-decoration:none;
+	
+}
 footer{
 	position:absolute;
 	bottom:0;
