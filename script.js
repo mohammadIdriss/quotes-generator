@@ -62,7 +62,7 @@ button.onmouseenter=function(){
 }
 button.onclick=function(){
 button.innerText="Next"
-document.getElementsByTagName('div')[0].style.display="block";
+document.getElementsByTagName('div')[0].style.visibility="visible";
 request.open("GET",url,true);
 request.send();
 request.onreadystatechange()
